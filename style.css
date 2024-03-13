@@ -7,7 +7,6 @@ header{
 .logo{display: flex;}
 nav>button{
     margin: 0px 20px 0 0;
-    height: 30px;
 }
 .advert{
     height: 200px;
@@ -16,4 +15,40 @@ nav>button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.info{
+    max-width: 57vw;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+section{
+    height: 200px;
+    background-color: antiquewhite;
+}
+.feedback{
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        background-color: rgb(128, 128, 218);
+}
+.working{
+    display: flex;
+    gap: 90px;
+}
+button{
+    height: 30px;
 }
