@@ -1,0 +1,11 @@
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{display: flex;}
+nav>button{
+    margin: 0px 20px 0 0;
+    height: 30px;
+}
