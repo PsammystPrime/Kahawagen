@@ -1,9 +1,5 @@
 function carouselPreview() {
   const display = document.querySelector(".display");
-  const next = document.querySelector(".next");
-  next.addEventListener("click", nextImg);
-  const prev = document.querySelector(".prev");
-  prev.addEventListener("click", prevImg);
 
   //Initialize your images
   const one = document.createElement("img");
@@ -27,15 +23,6 @@ function carouselPreview() {
       index = 0;
     } else {
       index++;
-    }
-    display.innerHTML = "";
-    display.appendChild(imageArray[index]);
-  }
-  function prevImg() {
-    if (index === 0) {
-      index = imageArray.length - 1;
-    } else {
-      index--;
     }
     display.innerHTML = "";
     display.appendChild(imageArray[index]);
