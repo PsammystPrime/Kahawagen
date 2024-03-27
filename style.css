@@ -3,17 +3,23 @@ body {
 }
 header {
   background-color: aqua;
+  background-color: darkslategray;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+header > nav > button {
+  background-color: dodgerblue;
 }
 .logo {
   display: flex;
   align-items: center;
 }
 .logoImg {
-  max-height: 150px;
-  margin: 15px;
+  min-height: 50px;
+  max-height: 100px;
+  margin: 15px 0 15px 8px;
   border-radius: 70%;
   object-fit: contain;
 }
@@ -34,13 +40,14 @@ nav > button {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 250px;
+  top: 300px;
   align-self: center;
   justify-self: center;
+  color: #fff5ee;
   opacity: 75%;
 }
 .display {
-  height: 300px;
+  height: 500px;
   width: 100vw;
   background-color: rgb(36, 34, 37);
   display: flex;
@@ -48,18 +55,20 @@ nav > button {
   align-items: center;
   justify-content: center;
   margin: 0px 0;
-  background-color: red;
+  background-color: darkslategray;
+
   position: relative;
 }
 .display > img {
   width: 100vw;
-  max-height: 300px;
+  max-height: 500px;
   object-fit: cover;
 }
 
 .pitch {
   background-color: rgb(36, 34, 37);
   color: aliceblue;
+  margin-bottom: 0;
 }
 .card {
   display: flex;
@@ -75,26 +84,24 @@ nav > button {
   /* aspect-ratio: 3/4; */
   object-fit: cover;
 }
-.testimonials {
+.email {
   display: flex;
   flex-direction: column;
-  background-color: bisque;
+  background-color: rgb(36, 34, 37);
 }
-section {
-  /* height: 200px; */
-  background-color: antiquewhite;
-}
+
 .feedback {
   align-self: center;
   justify-self: center;
-  margin-bottom: 10px;
+  margin: 10px 0;
+  background-color: dodgerblue;
+  color: floralwhite;
 }
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(128, 128, 218);
   background-color: rgb(36, 34, 37);
   color: azure;
 }
