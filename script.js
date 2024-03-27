@@ -40,5 +40,8 @@ function carouselPreview() {
     display.innerHTML = "";
     display.appendChild(imageArray[index]);
   }
+  setInterval(() => {
+    nextImg();
+  }, 3000);
 }
 carouselPreview();
