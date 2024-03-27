@@ -1,54 +1,84 @@
-header{
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{display: flex;}
-nav>button{
-    margin: 0px 20px 0 0;
+.logo {
+  display: flex;
 }
-.advert{
-    height: 200px;
-    background-color: rgb(145, 180, 16);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+nav > button {
+  margin: 0px 20px 0 0;
 }
-.card{
-    display: flex;
-    justify-content: space-evenly;
 
+/*///////////////////////////////////////image preview*/
+.preview {
+  display: grid;
+  grid-template-rows: 1fr;
 }
-.info{
-    max-width: 57vw;
+.advert {
+  /* height: 200px; */
+  /* background-color: rgb(145, 180, 16); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 180px;
+  align-self: center;
+  justify-self: center;
+  opacity: 75%;
 }
-.testimonials{
-    display: flex;
-    flex-direction: column;
-    background-color: bisque;
+.display {
+  height: 300px;
+  width: 100vw;
+  background-color: rgb(36, 34, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: red;
+  position: relative;
 }
-section{
-    height: 200px;
-    background-color: antiquewhite;
+.display > img {
+  width: 100vw;
+  max-height: 300px;
+  object-fit: cover;
 }
-.feedback{
-    align-self: center;
-    justify-self: center;
-    margin-bottom: 10px;
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
 }
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-        background-color: rgb(128, 128, 218);
+.info {
+  max-width: 57vw;
 }
-.working{
-    display: flex;
-    gap: 90px;
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
 }
-button{
-    height: 30px;
+section {
+  /* height: 200px; */
+  background-color: antiquewhite;
+}
+.feedback {
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(128, 128, 218);
+}
+.working {
+  display: flex;
+  gap: 90px;
+}
+button {
+  height: 30px;
 }
