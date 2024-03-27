@@ -65,7 +65,10 @@ h5 {
   align-self: center;
   justify-self: center;
   color: #fff5ee;
+  background-color: rgb(11, 7, 14);
   opacity: 75%;
+  padding: 20px;
+  border-radius: 10px;
 }
 .display {
   height: 500px;

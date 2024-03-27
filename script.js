@@ -3,15 +3,15 @@ function carouselPreview() {
 
   //Initialize your images
   const one = document.createElement("img");
-  one.src = "./Gamer_girl.png";
+  one.src = "./1.jpg";
   const two = document.createElement("img");
-  two.src = "./alien.jpg";
+  two.src = "./2.jpg";
   const three = document.createElement("img");
-  three.src = "./exotic.png";
+  three.src = "./3.jpg";
   const four = document.createElement("img");
-  four.src = "Beautiful.jpg";
+  four.src = "./5.jpg";
   const five = document.createElement("img");
-  five.src = "bridge.png";
+  five.src = "./6.jpg";
   const six = document.querySelector(".homeImg");
   //Push them to an array
   const imageArray = [one, two, three, four, five, six];
