@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 h1 {
-  color: rgb(36, 204, 36);
+  color: #fff5ee;
 }
 header {
   background-color: aqua;
@@ -23,7 +23,7 @@ header > nav > button {
   min-height: 50px;
   max-height: 100px;
   margin: 15px 0 15px 8px;
-  /* border-radius: 70%; */
+  border-radius: 70%;
   object-fit: contain;
   background-color: #fff5ee;
 }
@@ -41,7 +41,7 @@ a {
 }
 button:hover {
   color: white;
-  background-color: #fff5ee;
+  background-color: green;
 }
 p {
   font-weight: 900;
