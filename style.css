@@ -23,8 +23,9 @@ header > nav > button {
   min-height: 50px;
   max-height: 100px;
   margin: 15px 0 15px 8px;
-  border-radius: 70%;
+  /* border-radius: 70%; */
   object-fit: contain;
+  background-color: #fff5ee;
 }
 nav > button {
   margin: 0px 20px 0 0;
@@ -40,7 +41,7 @@ a {
 }
 button:hover {
   color: white;
-  background-color: green;
+  background-color: #fff5ee;
 }
 p {
   font-weight: 900;
