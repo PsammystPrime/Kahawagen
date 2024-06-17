@@ -144,6 +144,22 @@ ul {
   list-style-type: none;
 }
 
+@media (max-width: 500px) {
+  body {
+    margin: 0 0.5em 0 0.5em;
+    background-color: darkslategray;
+  }
+
+  .info {
+    /* min-width: 300px; */
+    /* color: rebeccapurple; */
+  }
+  .card img {
+    opacity: 100%;
+    max-width: 170px;
+  }
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
