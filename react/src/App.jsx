@@ -5,11 +5,7 @@ export function Navbar() {
   return (
     <header>
       <div className="logo">
-        <img
-          src="./public/logo.jpeg"
-          alt="KahawaGen logo"
-          className="logoImg"
-        />
+        <img src="/logo.jpeg" alt="KahawaGen logo" className="logoImg" />
         <h1>KAHAWA-GEN</h1>
       </div>
       <nav>
@@ -26,7 +22,7 @@ export function Main() {
       <div className="preview">
         <div className="display">
           <img
-            src="./public/v5107TKrgQLcWj7z4BN4--1--02egd.jpg"
+            src="/v5107TKrgQLcWj7z4BN4--1--02egd.jpg"
             alt="A grocery guy"
             className="homeImg"
           />
@@ -68,14 +64,11 @@ export function Main() {
             </p>
             <p>Tech. Lead Stephen Mwangi</p>
           </div>
-          <img
-            src="./public/emmanuel-ikwuegbu-zWOgsj3j0wA-unsplash.jpg"
-            alt="#"
-          />
+          <img src="/emmanuel-ikwuegbu-zWOgsj3j0wA-unsplash.jpg" alt="#" />
         </div>
         <hr />
         <div className="card" id="invert">
-          <img src="./public/sigmund-JHGFcLznoUY-unsplash.jpg" alt="#" />
+          <img src="/sigmund-JHGFcLznoUY-unsplash.jpg" alt="#" />
           <div className="info">
             <h3>Why Choose us?</h3>
             <p>
@@ -108,7 +101,7 @@ export function Main() {
             </p>
             <p>Mech. Jack Kimando</p>
           </div>
-          <img src="./public/adrian-brand-dmu18eQLnVQ-unsplash.jpg" alt="#" />
+          <img src="/adrian-brand-dmu18eQLnVQ-unsplash.jpg" alt="#" />
         </div>
         <hr />
       </div>
