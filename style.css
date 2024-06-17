@@ -23,8 +23,7 @@ header > nav > button {
   min-height: 50px;
   max-height: 100px;
   margin: 15px 0 15px 8px;
-  border-radius: 70%;
-  object-fit: contain;
+  border-radius: 50%;
   background-color: #fff5ee;
 }
 nav > button {
@@ -49,6 +48,7 @@ p {
 }
 h3 {
   font-size: xx-large;
+  text-decoration: underline;
 }
 h5 {
   font-size: medium;
@@ -139,4 +139,7 @@ footer {
 }
 button {
   height: 30px;
+}
+ul {
+  list-style-type: none;
 }
