@@ -111,9 +111,7 @@ export function Main() {
         <button className="feedback">
           <a
             href="mailto:psammystprime384@gmail.com"
-            style={{
-              color: "floralwhite",
-            }}
+            style={{ color: "floralwhite" }}
           >
             Email us
           </a>
