@@ -111,7 +111,9 @@ export function Main() {
         <button className="feedback">
           <a
             href="mailto:psammystprime384@gmail.com"
-            style="color: floralwhite"
+            style={{
+              color: "floralwhite",
+            }}
           >
             Email us
           </a>
@@ -120,11 +122,38 @@ export function Main() {
     </main>
   );
 }
+export function Footer() {
+  return (
+    <footer>
+      <div className="working">
+        <img src="/logo.jpeg" alt="KahawaGen logo" className="logoImg" />
+        <div className="time">
+          <h5>Open Hours</h5>
+          <ul>
+            <li>Mon - Sat: 8am - 8pm</li>
+            <li>Sunday: Appointments only</li>
+            <li>Public Holidays: 8am - 4pm</li>
+          </ul>
+        </div>
+      </div>
+      <section></section>
+      <p>
+        Built with <i>love</i> and <i>Coffee</i> by{" "}
+        <b>
+          <i>PsammystPrime</i>
+        </b>
+        <br />
+        2024 All Rights Reserved
+      </p>
+    </footer>
+  );
+}
 function App() {
   return (
     <div className="container">
       <Navbar></Navbar>
       <Main></Main>
+      <Footer></Footer>
     </div>
   );
 }
