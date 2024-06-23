@@ -149,11 +149,6 @@ ul {
     margin: 0 0.5em 0 0.5em;
     background-color: darkslategray;
   }
-
-  .info {
-    /* min-width: 300px; */
-    /* color: rebeccapurple; */
-  }
   .card img {
     opacity: 100%;
     max-width: 170px;
@@ -166,8 +161,8 @@ ul {
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
+*/
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
